@@ -18,6 +18,14 @@
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-base.git"
         },
+		{
+        "type": "vcs",
+        "url": "https://github.com/kouosl/portal-gii.git"
+    },
+	 {
+            "type": "vcs",
+            "url": "https://github.com/mertuzan/portal-harita.git"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-theme.git"
@@ -53,7 +61,8 @@
         "kouosl/portal-site": "dev-develop",
         "kouosl/portal-user": "dev-develop",
         "kouosl/portal-menu": "dev-develop",
-        "kouosl/portal-content": "dev-develop"
+        "kouosl/portal-content": "dev-develop",
+		 "kouosl/portal-harita": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -61,7 +70,8 @@
         "yiisoft/yii2-faker": "~2.0.0",
         "kouosl/portal-gii": "dev-develop",
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "codeception/verify": "~0.3.1",
+		 "kouosl/portal-gii": "dev-master"
     },
     "config": {
         "process-timeout": 1800,
